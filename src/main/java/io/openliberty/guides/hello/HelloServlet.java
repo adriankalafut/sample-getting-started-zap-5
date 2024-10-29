@@ -24,7 +24,7 @@ public class HelloServlet extends HttpServlet {
         PrintWriter writer = response.getWriter();
 
         String username = request.getUserPrincipal().getName();
-        writer.println("Hello " + username);
+        writer.println("Hello  " + username);
 
         String accessToken = UserProfileManager.getUserProfile().getAccessToken();
         writer.println("\nAccess Token:");
