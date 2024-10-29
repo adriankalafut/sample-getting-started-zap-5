@@ -22,7 +22,7 @@
     </properties>
 
     <dependencies>
-      <!-- Provided dependencies -->
+      <!-- Provided dependencies-->
         <dependency>
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-api</artifactId>
